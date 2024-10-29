@@ -14,7 +14,7 @@ public class Userlog_211024 extends base{
 		
 		WelcomePage lg = new WelcomePage(driver);
 		lg.fblogin(driver);
-		System.out.println("sdfvzdsfvgaerg");
+		System.out.println("fb login successfully completed");
 		lg.createAccount();
 	}
 }

@@ -5,19 +5,19 @@
       <![CDATA[application launchedhttps://www.facebook.com/]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-10-25T13:46:13 IST" name="Default suite" finished-at="2024-10-25T13:46:31 IST" duration-ms="18780">
+  <suite started-at="2024-10-29T12:23:50 IST" name="Default suite" finished-at="2024-10-29T12:24:09 IST" duration-ms="18310">
     <groups>
     </groups>
-    <test started-at="2024-10-25T13:46:13 IST" name="Default test" finished-at="2024-10-25T13:46:31 IST" duration-ms="18780">
+    <test started-at="2024-10-29T12:23:50 IST" name="Default test" finished-at="2024-10-29T12:24:09 IST" duration-ms="18310">
       <class name="Test.Userlog_211024">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:Test.Userlog_211024@55141def]" started-at="2024-10-25T13:46:13 IST" name="openApplication" finished-at="2024-10-25T13:46:18 IST" duration-ms="5087" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Test.Userlog_211024@55141def]" started-at="2024-10-29T12:23:51 IST" name="openApplication" finished-at="2024-10-29T12:23:55 IST" duration-ms="4979" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[application launchedhttps://www.facebook.com/]]>
             </line>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="login()[pri:0, instance:Test.Userlog_211024@55141def]" started-at="2024-10-25T13:46:18 IST" name="login" finished-at="2024-10-25T13:46:31 IST" duration-ms="13449" status="FAIL">
+        <test-method signature="login()[pri:0, instance:Test.Userlog_211024@55141def]" started-at="2024-10-29T12:23:55 IST" name="login" finished-at="2024-10-29T12:24:09 IST" duration-ms="13096" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -42,7 +42,7 @@ expected [8] but found [3],
 expected [8] but found [3]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at POM.WelcomePage.fblogin(WelcomePage.java:92)
+at POM.WelcomePage.fblogin(WelcomePage.java:115)
 at Test.Userlog_211024.login(Userlog_211024.java:16)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -76,7 +76,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Test.Userlog_211024@55141def]" started-at="2024-10-25T13:46:31 IST" name="closeApplication" finished-at="2024-10-25T13:46:31 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Test.Userlog_211024@55141def]" started-at="2024-10-29T12:24:09 IST" name="closeApplication" finished-at="2024-10-29T12:24:09 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->

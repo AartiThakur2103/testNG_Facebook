@@ -132,6 +132,11 @@ public class WelcomePage {
 		selectday.selectByVisibleText("4");
 		Thread.sleep(3000);
 
+		Select selectday1 = new Select(day);
+		selectday1.selectByVisibleText("4");
+		Thread.sleep(3000);
+
+		
 		Select selectmonth = new Select(month);
 		selectmonth.selectByIndex(2);
 		Thread.sleep(3000);
